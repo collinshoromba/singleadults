@@ -4,12 +4,48 @@ body {
     padding: 0;
 }
 
+h1 {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+.imla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.imla iframe {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+    padding: 2rem;
+}
+
+picture {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
 .container {
     max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
+    margin: 60px auto;
+    padding: 2rem;
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 form {
@@ -43,4 +79,8 @@ button:hover {
 
 #registrationCount {
     font-weight: bold;
+}
+
+footer p {
+    text-align: center;
 }
