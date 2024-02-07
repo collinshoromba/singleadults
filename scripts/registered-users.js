@@ -16,16 +16,15 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-
 document.getElementById("loginForm").addEventListener("submit", function(event) {
     event.preventDefault();
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
 
     // Check credentials (replace with your authentication logic)
-    if (username === "admin01" && password === "singleadults@1") {
+    if (username === "admin" && password === "wednesday@P") {
         window.location.href = "registered-users.html"; // Redirect to registration page
     } else {
-        alert("Invalid credentials. Please contact the admin.");
+        alert("Invalid credentials. Please try again.");
     }
 });
